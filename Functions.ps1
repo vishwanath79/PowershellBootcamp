@@ -67,7 +67,7 @@ Get-ChildItem | Show-PS1Files | List-Filenames
 
 #Output pipelines
 
-Set-Location "/Users/vsubrama/Projects/Azure/Powershell"
+Set-Location "/Users"
 Get-ChildItem | Select-Object "Name"
 
 function Get-ChildName ()
